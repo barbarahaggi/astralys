@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from "react";
-import Image from "next/image";
 import { FaCalendarAlt } from "react-icons/fa"; // Importando ícone de calendário
 import './birthday.css';
 
@@ -76,7 +75,7 @@ export default function BirthPage() {
           <div key={index} className=" p-4 bg-gray-800 rounded-lg shadow-lg w-[100%]">
             <h3 className="text-xl font-bold mb-2">{item.title}</h3>
             {item.media_type === 'image' ? (
-              <Image src={item.url} alt={item.title} className="rounded-lg mb-2" />
+              <img src={item.url} alt={item.title} className="rounded-lg mb-2" />
             ) : (
               <iframe
                 src={item.url}
