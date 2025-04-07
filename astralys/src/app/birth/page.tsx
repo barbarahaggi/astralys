@@ -42,7 +42,7 @@ export default function BirthPage() {
     <main className="homepage flex items-center justify-center min-h-screen bg-gray-900 text-white">
       <div className="text-center">
         <h1 className="text-3xl mb-4">Your star</h1>
-        <span className="block mb-6 text-white text-shadow 2px">On the night you were born, the sky had a story to tell. Check it out</span>
+        <span className="block mb-6 text-white text-shadow 2px">On the night you were born, the sky had a story to tell. Check it out:</span>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6 items-center">
 
           <div className="relative">
