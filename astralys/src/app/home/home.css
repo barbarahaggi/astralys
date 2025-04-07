@@ -1,0 +1,81 @@
+.homepage {
+  background-image: url('/sky.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  width: 100%;
+  padding: 20px 1rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: #1a1a1a;
+}
+
+@media (min-width: 640px) {
+  h1 {
+    font-size: 4rem;
+    text-shadow: #1a1a1a;
+  }
+}
+
+.texto {
+  max-width: 750px;
+  text-align: center;
+  margin-top: 10px;
+  word-wrap: break-word;
+  text-shadow: #1a1a1a;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button {
+  cursor: pointer;
+  padding: 1em;
+  font-size: 0.9em;
+  width: 100%;
+  max-width: 200px;
+  height: 3em;
+  color: white;
+  background: #141428;
+  border-radius: 0.5em;
+  outline: 0.1em solid #353535;
+  border: none;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #212121, #252525);
+}

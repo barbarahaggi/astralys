@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Triodion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Triodion&family=Tsukimi+Rounded&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,5 +20,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Tsukimi Rounded', serif;
 }
