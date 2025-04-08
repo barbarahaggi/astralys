@@ -75,12 +75,12 @@ export default function BirthPage() {
           <div key={index} className=" p-4 bg-gray-800 rounded-lg shadow-lg w-[100%]">
             <h3 className="text-xl font-bold mb-2">{item.title}</h3>
             {item.media_type === 'image' ? (
-              <img src={item.url} alt={item.title} className="rounded-lg mb-2" />
+              <img src={item.url} alt={item.title} className="rounded-lg mb-2 mx-auto" />
             ) : (
               <iframe
                 src={item.url}
                 title={item.title}
-                className="w-full h-96 rounded-lg mb-2 "
+                className="w-full h-96 rounded-lg mb-2 mx-auto"
                 allowFullScreen
               />
             )}
